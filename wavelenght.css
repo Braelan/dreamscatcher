@@ -1,0 +1,107 @@
+html, li, ul, div, img {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font: inherit;
+  text-decoration: inherit;
+  text-align  : inherit;
+  list-style: none;
+  list-style-type: none;
+  color: inherit;
+  background: transparent;
+  background: transparent;
+
+}
+html {
+  width: 1024px;
+  margin: auto;
+}
+h1 {
+  background: green;
+  display: block;
+  width: 150px;
+}
+
+ul {
+  display: flex;
+  height: 50px;
+}
+
+li {
+  background: orange;
+  border: 1px solid black;
+}
+
+.header {
+  display: flex;
+  background: yellow;
+  justify-content: space-between;
+  /*height: 50px;*/
+}
+section {
+   display: block;
+   position:inherit;
+   width: 150px;
+   height: 150px;
+
+}
+
+.pictures {
+  display: flex;
+  width:1024px;
+}
+.card {
+  position: relative;
+}
+
+.front {
+  position: absolute;
+  background: blue;
+  width: 150px;
+  height: 150px;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: 100%
+}
+
+
+.back {
+  position: absolute;
+  background: red;
+  width: 150px;
+  height: 150px
+}
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+
+}
+
+.back {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(180deg);
+  display: flex;
+}
+
+p {
+  top: 40px;
+  margin: auto;
+  background: yellow;
+}
+
+.card.effect_hover:hover .front {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.card.effect_hover:hover .back {
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+}
