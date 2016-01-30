@@ -14,13 +14,13 @@ html, li, ul, div, img {
 
 }
 html {
-  width: 1024px;
+  width: 1026px;
   margin: auto;
 }
 h1 {
   background: green;
   display: block;
-  width: 150px;
+  width: ;
 }
 
 ul {
@@ -42,14 +42,17 @@ li {
 section {
    display: block;
    position:inherit;
-   width: 150px;
-   height: 150px;
+   width: 170px;
+   height: 170px;
 
 }
 
 .pictures {
   display: flex;
   width:1024px;
+
+  justify-content: center;
+  flex-flow: wrap;
 }
 .card {
   position: relative;
@@ -58,8 +61,8 @@ section {
 .front {
   position: absolute;
   background: blue;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
 }
 
 img {
@@ -72,8 +75,11 @@ img {
 .back {
   position: absolute;
   background: red;
-  width: 150px;
-  height: 150px
+  width: 170px;
+  height: 170px;
+  display: flex;
+  flex-flow:column;
+  justify-content: center;
 }
 
 .front, .back {
