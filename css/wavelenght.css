@@ -149,13 +149,14 @@ body {
 
 html {
   margin: auto;
+
 }
 .wavelength {
   font-size: 12px;
   padding: 5px 0 5px 10px;
   background: black;
   color: white;
-  margin: 510px 0 0 0;
+  margin: 510px 0 0 2;
   display: flex;
   justify-content: space-between;
 
