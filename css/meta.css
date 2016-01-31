@@ -15,7 +15,9 @@
   position: absolute;
   background: #DBE6EC;
   width: 1022px;
-  height: 510px
+  height: 510px;
+  color: black;
+  font-size: 20px;
 }
 
 .flip {
