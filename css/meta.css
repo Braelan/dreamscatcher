@@ -1,18 +1,21 @@
 
 
 .pictures {
-
   display: flex;
   width:1024px;
   justify-content: center;
   flex-flow: wrap;
 
 }
-.reverse{
 
+.picture-wrap {
+  position: absolute;
+}
+.reverse{
+  position: absolute;
   background: red;
   width: 1038px;
-  height: 400
+  height: 600
 }
 
 .flip {
@@ -36,7 +39,7 @@
   justify-content: center;
 }
 
-.front, .back {
+.pictures, .reverse {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transition: -webkit-transform 0.3s;
@@ -44,7 +47,7 @@
 
 }
 
-.back {
+.reverse {
   -webkit-transform: rotateY(-180deg);
   transform: rotateY(180deg);
   display: flex;
@@ -52,12 +55,12 @@
 
 
 
-.card.effect_hover:hover .front {
+.flip.effect_change:hover .pictures {
   -webkit-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
 }
 
-.card.effect_hover:hover .back {
+.flip.effect_change:hover .reverse {
   -webkit-transform: rotateY(0);
   transform: rotateY(0);
 }
