@@ -42,10 +42,11 @@ button {
   border-radius: 5px;
   display: block;
   width: 50px;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   background: #24A8DE;
   box-shadow: 0 3px 1px #074C99;
   font-weight: bold;
+
 }
 
 button:active {
@@ -66,19 +67,22 @@ section {
 
 .card {
   position: relative;
+  cursor: pointer;
+
 }
 
 .front {
   position: absolute;
-  background: blue;
+  background: #81A8B8;
   width: 170px;
   height: 170px;
+    overflow-y: hidden;
 }
 
 img {
   width: 100%;
   display: block;
-  height: 100%
+  height: auto;
 }
 
 
@@ -152,4 +156,13 @@ html {
   background: black;
   color: white;
   margin: 510px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.wavelength > p {
+
+  background: transparent;
+
 }
