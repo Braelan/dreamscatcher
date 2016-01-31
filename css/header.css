@@ -17,11 +17,19 @@ ul {
 }
 
 .dream {
-  padding: 0 172px 0 0;
+  padding: 0 0 0 0;
   font-size: 37px;
   border-right: none;
   height: 35px;
   font-family:  'Raleway', sans-serif;
+}
+
+.logo {
+
+  height: 35px;
+  width: auto;
+
+  padding: 0 120px 0 0;
 }
 
 ul > li {
