@@ -13,9 +13,9 @@
 }
 .reverse{
   position: absolute;
-  background: red;
-  width: 1038px;
-  height: 600
+  background: #DBE6EC;
+  width: 1022px;
+  height: 510px
 }
 
 .flip {
@@ -42,8 +42,8 @@
 .pictures, .reverse {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
+  -webkit-transition: -webkit-transform 1s;
+  transition: transform 1s;
 
 }
 
@@ -55,12 +55,12 @@
 
 
 
-.flip.effect_change:hover .pictures {
+.flip.effect_change .pictures {
   -webkit-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
 }
 
-.flip.effect_change:hover .reverse {
+.flip.effect_change .reverse {
   -webkit-transform: rotateY(0);
   transform: rotateY(0);
 }

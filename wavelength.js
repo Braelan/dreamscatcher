@@ -1,3 +1,6 @@
 console.log("I am the java")
 
-$('.dream')
+$('.dream').click(function(){
+  $('.flip').toggleClass('effect_change')
+  console.log("click")
+})
