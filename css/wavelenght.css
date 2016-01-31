@@ -98,5 +98,6 @@ html {
   margin: auto;
 }
 .wavelength {
-  background: red;
+  background: black;
+  color: white;
 }
