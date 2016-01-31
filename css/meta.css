@@ -1,33 +1,21 @@
-@import "header.css";
-@import "meta.css";
 
-html, li, ul, div, img, input {
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: 0;
-  font: inherit;
-  text-decoration: inherit;
-  text-align  : inherit;
-  list-style: none;
-  list-style-type: none;
-  color: inherit;
-  background: transparent;
-  background: transparent;
-  font-family: 'Raleway', sans-serif;
+
+.pictures {
+
+  display: flex;
+  width:1024px;
+  justify-content: center;
+  flex-flow: wrap;
 
 }
+.reverse{
 
-section {
-   display: block;
-   position:inherit;
-   width: 170px;
-   height: 170px;
-
+  background: red;
+  width: 1038px;
+  height: 400
 }
 
-
-.card {
+.flip {
   position: relative;
 }
 
@@ -37,13 +25,6 @@ section {
   width: 170px;
   height: 170px;
 }
-
-img {
-  width: 100%;
-  display: block;
-  height: 100%
-}
-
 
 .back {
   position: absolute;
@@ -69,11 +50,7 @@ img {
   display: flex;
 }
 
-p {
-  top: 40px;
-  margin: auto;
-  background: yellow;
-}
+
 
 .card.effect_hover:hover .front {
   -webkit-transform: rotateY(-180deg);
@@ -83,28 +60,4 @@ p {
 .card.effect_hover:hover .back {
   -webkit-transform: rotateY(0);
   transform: rotateY(0);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-body {
-
-}
-
-html {
-  margin: auto;
-}
-.wavelength {
-  background: black;
-  color: white;
 }
