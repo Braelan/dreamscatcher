@@ -1,4 +1,6 @@
-html, li, ul, div, img {
+@import "header.css";
+
+html, li, ul, div, img, input {
   margin: 0;
   padding: 0;
   border: none;
@@ -11,34 +13,10 @@ html, li, ul, div, img {
   color: inherit;
   background: transparent;
   background: transparent;
+  font-family: 'Raleway', sans-serif;
 
 }
-html {
-  width: 1026px;
-  margin: auto;
-}
-h1 {
-  background: green;
-  display: block;
-  width: ;
-}
 
-ul {
-  display: flex;
-  height: 50px;
-}
-
-li {
-  background: orange;
-  border: 1px solid black;
-}
-
-.header {
-  display: flex;
-  background: yellow;
-  justify-content: space-between;
-  /*height: 50px;*/
-}
 section {
    display: block;
    position:inherit;
@@ -110,4 +88,12 @@ p {
 .card.effect_hover:hover .back {
   -webkit-transform: rotateY(0);
   transform: rotateY(0);
+}
+
+body {
+  margin: auto;
+}
+
+.wavelength {
+  background: red;
 }
