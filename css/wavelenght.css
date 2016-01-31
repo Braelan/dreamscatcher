@@ -91,9 +91,12 @@ p {
 }
 
 body {
-  margin: auto;
+
 }
 
+html {
+  margin: auto;
+}
 .wavelength {
   background: red;
 }
