@@ -53,6 +53,59 @@
   display: flex;
 }
 
+.cover {
+  position: absolute;
+  background: white;
+  opacity: .9;
+  width: 1024px;
+  height:510px;
+  margin: 0 0 0 0;
+}
+
+.cover-change {
+  background: transparent;
+  transition: background 10s;
+}
+.cover > .message-change {
+  top:150px;
+  transition: top 8s, font-size 7s, opacity 7s;
+  font-size: 40px;
+  opacity: .8
+}
+em {
+  font-style: normal;
+  font-weight: bold;
+
+  font-size: 20px;
+  color: black;
+}
+.future {
+  font-size: 20px;
+}
+
+.big-future {
+ font-size: 80px;
+  transition: font-size 14s;
+  display: block;
+}
+
+
+.we-are {
+  position: relative;
+  text-align: center;
+  top: 200px;
+  font-size: 12px;
+  font-weight:bold;
+  color: #07540A;
+}
+
+.disappear {
+  display: none
+}
+
+
+
+
 
 
 .flip.effect_change .pictures {

@@ -92,6 +92,11 @@ img {
   justify-content: center;
 }
 
+.backtext {
+  padding: 0 5px 0 5px;
+  text-align: center;
+}
+
 .front, .back {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
