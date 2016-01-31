@@ -1,7 +1,24 @@
 @import "header.css";
 @import "meta.css";
 
-html, li, ul, div, img, input {
+.rain {
+  background: #E8F3F8}
+.sky{
+  background: #DBE6EC
+  }
+.coral {
+  background: #C2CBCE
+}
+
+.jet {
+  background: #A4BCC2
+}
+
+.ocean {
+  background: #81A8B8
+}
+
+html, li, ul, div, img, input, button {
   margin: 0;
   padding: 0;
   border: none;
@@ -15,6 +32,26 @@ html, li, ul, div, img, input {
   background: transparent;
   background: transparent;
   font-family: 'Raleway', sans-serif;
+
+}
+
+button {
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: block;
+  width: 50px;
+  margin: 0 auto;
+  background: #24A8DE;
+  box-shadow: 0 3px 1px #074C99;
+  font-weight: bold;
+}
+
+button:active {
+
+  transform: translate(0, 5px);
+  box-shadow: 0 0 0 0;
 
 }
 
@@ -47,7 +84,7 @@ img {
 
 .back {
   position: absolute;
-  background: red;
+
   width: 170px;
   height: 170px;
   display: flex;
@@ -72,7 +109,7 @@ img {
 p {
   top: 40px;
   margin: auto;
-  background: yellow;
+  background: transparent;
 }
 
 .card.effect_hover:hover .front {
@@ -105,7 +142,9 @@ html {
   margin: auto;
 }
 .wavelength {
+  font-size: 12px;
+  padding: 5px 0 5px 10px;
   background: black;
   color: white;
-  margin: 500px 0 0 0;
+  margin: 510px 0 0 0;
 }

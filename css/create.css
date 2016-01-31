@@ -1,0 +1,13 @@
+.create-container {
+  background: purple;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+h2 {
+  display: block;
+  margin: auto;
+}

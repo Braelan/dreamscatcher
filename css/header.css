@@ -16,6 +16,15 @@ ul {
   align-items: flex-start;
 }
 
+a { font-family: inherit;
+    font-size: inherit;
+    padding: inherit;
+    margin: inherit;
+    color: #3992EF;
+    text-decoration: none;
+    font-weight : bold;
+    }
+
 .dream {
   padding: 0 0 0 0;
   font-size: 37px;
@@ -29,7 +38,15 @@ ul {
   height: 35px;
   width: auto;
 
-  padding: 0 120px 0 0;
+  padding: 0 70px 0 0;
+}
+
+.mentor {
+
+}
+
+.sort {
+  display: none;
 }
 
 ul > li {
